@@ -4,7 +4,7 @@ class LLwLocation(Location):
     game: str = "Lily's Well"
 
     locsphere0_table = {
-        "bed": 231370,
+        "Bed": 231370,
         "Bedroom_Drawer": 231371,
         "bathroom":231372,
         "Dad's drawer":231373,
@@ -43,6 +43,6 @@ class LLwLocation(Location):
         "Cave_Wall":231397
 }
     locprogress_table = {
-        "yarn":55,
-        "stool":56
+        "Yarn":55,
+        "Stool":56
 }

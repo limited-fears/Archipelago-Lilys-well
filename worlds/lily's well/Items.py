@@ -50,5 +50,10 @@ Notes = {
 }
 
 Maybe = {
-    "Move_Stool": 2339
+    "Push_Stool": 1339,
+    "Rock_Trap": 1341,
+}
+
+Phone = {
+    "Phone_Fragment" : 2340
 }
