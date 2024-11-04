@@ -21,11 +21,12 @@ Good_Rope_Material = {
     "Blue_Flower_Vine": 2322,
     "Chain": 2323,
     "Bedsheets": 2324,
-    "Belts": 2325
+    "Belts": 2325,
+    "Rope": 2326
 }
 
 Yarn = {
-    "Ball_Of_Yarn": 2326,
+    "Ball_Of_Yarn": 2341,
 }
 
 Tools = {
