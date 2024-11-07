@@ -51,6 +51,6 @@ range_start = 5
 default = 0
 
 
-class Options (PerGameCommonOptions):
+class LLWOptions (PerGameCommonOptions):
     Deathlink = Deathlink
     Weak_Lily = Toggle

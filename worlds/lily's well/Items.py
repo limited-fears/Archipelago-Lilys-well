@@ -1,4 +1,4 @@
-from BaseClasses import Item
+from BaseClasses import Item, ItemClassification, MultiWorld
 
 
 class llwItem(Item):

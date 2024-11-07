@@ -1,4 +1,5 @@
-from BaseClasses import Location
+from BaseClasses import LocationProgressTypek
+from typing import Dict, TypedDict, List
 
 class LLwLocation(Location):
     game: str = "Lily's Well"

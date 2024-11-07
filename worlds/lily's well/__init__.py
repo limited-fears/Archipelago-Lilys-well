@@ -1,10 +1,32 @@
-import functools
-import logging
-from typing import Any, Dict, List
+import math
+from typing import Dict, List
 
-from BaseClasses import Entrance, CollectionState, Item, Location, MultiWorld, Region, Tutorial
+from BaseClasses import Item, Location, Region, Tutorial, MultiWorld
 from worlds.AutoWorld import WebWorld, World
-from .items import Items, Locations, Maps, Regions, Rules
-from .Options import Choice, Toggle, PerGameCommonOptions, StartInventoryPool
+from worlds.generic.Rules import set_rule, forbid_item
 
-logger = logging.getLogger
+from .Items import Bad_Rope_Material, Good_Rope_Material, Yarn, Tools, Rocks, Notes
+from .Locations import locsphere0_table, locsphere2_table, locsphere3_table, locprogress_table
+from .Options import LLWOptions
+
+class LLWLocation(Location):
+    game: str = "Lily's Well"
+
+
+class LLWWebWorld(WebWorld):
+    theme = "grass"
+    
+    setup_en = Tutorial(
+        tutorial_name="Start Guide",
+        description="How to play Lily's Well",
+        language="English",
+        file_name="guide_en.md",
+        link="guide/en",
+        authors=["LeonMillan"]
+    )
+
+    tutorials = [setup_en]
+
+
+class LLWWorld(World):
+    """Lil's Well"""
