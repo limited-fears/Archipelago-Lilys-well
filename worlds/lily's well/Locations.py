@@ -1,5 +1,5 @@
 from BaseClasses import LocationProgressTypek
-from typing import Dict, TypedDict, List
+from typing import Dict, TypedDict, List, Location
 
 class LLwLocation(Location):
     game: str = "Lily's Well"
@@ -19,7 +19,7 @@ class LLwLocation(Location):
         "Shed_Outside":231381
         }
 
-    locsphere1_table ={
+    locsphere1_table = {
         "Dad's_Safe":231382,
         "Kitchen_Wall":231383,
         "Outside_Left":231384,
